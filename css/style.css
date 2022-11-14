@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent-box {
+  width: 400px;
+  height: 450px;
+  margin: 100px auto;
+  background-image: url(../images/photo_2022-11-14_11-19-37.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform-origin: left center;
+  perspective: 2000px;
+  display: flex;
+}
+
+.child-box-first {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+  transition: transform 1s ease;
+  transform-origin: left center;;
+}
+
+.child-box-second {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+  transition: transform 1s ease;
+  transform-origin: right center;
+}
+.parent-box:hover{
+    display: flex;
+    align-items: center;
+}
+.parent-box:hover > .child-box-first {
+  transform: rotateY(-150deg);
+  transition: transform 1s ease;
+}
+
+.parent-box:hover > .child-box-second {
+  transform: rotateY(150deg);
+  transition: transform 1s ease;
+}

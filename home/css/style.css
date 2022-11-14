@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.background {
+  width: 100%;
+  height: 156px;
+  background-color: #5ca5a5;
+  background-image: url(../images/back1.png), url(../images/back1.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 354px) calc(50% - 82px),
+    calc(50% + 250px) calc(50% + 63px);
+  background-size: 949px 321px;
+}
+
+.site-main {
+  padding: 76px 0 120px 0;
+  background-color: #f2f2f2;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.list-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: flex-start;
+  gap: 24px;
+}
+.list-section-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+  padding: 32px 40px;
+  background: #ffffff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  border-left: 5px solid #5ca5a5;
+}
+.img-desc {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.img-desc-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.a-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.a1 {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5ca5a5;
+  text-decoration: none;
+}
+.a2 {
+  display: inline-block;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  padding: 6px 8px 4px 8px;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #5ca5a5;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.a3 {
+  display: inline-block;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 6px 8px 4px 8px;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2b3939;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.degree {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2b3939;
+  margin: 0;
+}
+.degree:hover {
+  color: #5ca5a5;
+}
+.time-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.day {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.115385px;
+  color: #7c8f8f;
+  margin: 0;
+}
+.time {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #7c8f8f;
+  margin: 0;
+}
+.hudud {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.115385px;
+  color: #7c8f8f;
+  margin: 0;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  margin: 0;
+  background-color: #b7c4c4;
+}
+.list-section-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+.list-section-item {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #00ffff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background: #208686;
+  mix-blend-mode: normal;
+}
+
+.list-section-item:hover {
+  background: #0099ff;
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  color: #ffffff;
+}
